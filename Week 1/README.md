@@ -8,7 +8,7 @@ Key learning:
 - Visualized the computation graph with graphviz to see how gradients flow backward through `+`, `*`, `tanh`, etc.
 - Cross-checked gradients against PyTorch to confirm the from-scratch engine is correct.
 
-## Part 0b - Micrograd Exercises (solved)
+## Micrograd Exercises
 Key learning:
 - Compared three ways of getting a derivative: analytical (calculus by hand), one-sided numerical finite difference, and the symmetric derivative — and confirmed the symmetric version is far more accurate at the same step size `h`.
 - Extended `Value` with the operators it was missing (`__neg__`, `__sub__`, `__mul__`, `__pow__`, `__truediv__`, `exp`, `log`) in order to support softmax and negative log-likelihood loss, not just squared error.
