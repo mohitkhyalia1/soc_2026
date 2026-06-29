@@ -17,3 +17,9 @@
 - Verified manually computed gradients against PyTorch autograd.
 - Implemented a WaveNet-inspired hierarchical architecture for language modeling.
 - Explored larger context windows and improved model performance.
+
+### Week 4:
+- Built a character-level language model using a 2-layer LSTM.
+- Trained the model on the Tiny Shakespeare dataset.
+- Implemented character tokenization and autoregressive text generation.
+- Used PyTorch `nn.LSTM`, gradient clipping, and GPU support for training.
